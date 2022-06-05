@@ -1,1 +1,3 @@
-## Brick breaker Game in Java
+## Brick breaker Game in Java  
+
+![](./gameplay.png)
