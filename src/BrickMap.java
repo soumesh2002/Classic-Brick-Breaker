@@ -1,7 +1,7 @@
 public class BrickMap {
     public int map[][];
-    public int brickWidth[];
-    public int brickHeight[];
+    public int brickWidth;
+    public int brickHeight;
 
     // generate map: bricks
     public BrickMap(int r, int c) { // r: row, c: col 
