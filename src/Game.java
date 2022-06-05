@@ -57,6 +57,12 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     public void keyPressed(KeyEvent e) {
             }
         
+        if (e.getKeyCode() == KeyEvent.VK_LEFT) {
+            if (playerX < 10) {
+                playerX = 10;
+            } else {
+                moveLeft();
+            }
     }
 
     @Override
